@@ -41,7 +41,7 @@ extra:
       link: 'https://github.com/timitek'
     - type: 'twitter'
       link: 'https://twitter.com/timitek_llc'
-  disqus: 'disqus_timitek'
+  disqus: 'getrealt'
 
 # Google Analytics
 google_analytics:

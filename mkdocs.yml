@@ -1,4 +1,14 @@
 site_name: 'GetRealT: Realty Web Portal'
+pages:
+    - Home: index.md
+    - Installing: installing.md
+    - Post Installation: post_installation.md
+    - Home Page Content: home_page_content.md
+    - Dashboard: 
+      - Blog Editor: Dashboard/blog_editor.md
+      - GetRealT Settings: Dashboard/getrealt_settings.md
+      - GetRealT Contact Us: Dashboard/getrealt_contact_us.md
+    - License: license.md
 
 # Repository
 repo_name: 'GitHub'

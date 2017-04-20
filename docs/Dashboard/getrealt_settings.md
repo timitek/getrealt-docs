@@ -14,4 +14,6 @@ From the GetRealT settings page, you can specify customizations and additional s
 
 **Leads Email** - This is the email address that any leads which are captured will be sent too.
 
+**Header Image Tag** - This allows you to override the random images that appear at the top of your website pages, with images from your gallery.  The list of tags which are presented are tags assigned to images from your gallery.
+
 **Theme** - This is the the theme that defines the look and feel of your website.

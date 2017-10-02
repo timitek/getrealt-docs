@@ -1,0 +1,765 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.5.4">
+    
+    
+      
+        <title>Installing - GetRealT: Realty Web Portal</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-b1a1975878.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-f78e5cb881.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+      <link rel="stylesheet" href="../css/ekko-lightbox.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="green" data-md-color-accent="green">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href=".." title="GetRealT: Realty Web Portal" class="md-logo md-header-nav__button">
+            <img src="../img/logo.png" width="24" height="24">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            Installing
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+            
+
+
+  
+
+
+  <a href="https://github.com/timitek/getrealt-quarx" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-logo md-nav__button">
+        <img src="../img/logo.png">
+      </i>
+    
+    GetRealT: Realty Web Portal
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/timitek/getrealt-quarx" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Installing
+      </label>
+    
+    <a href="./" title="Installing" class="md-nav__link md-nav__link--active">
+      Installing
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getrealt-manager-installer" title="GetRealT Manager - Installer" class="md-nav__link">
+    GetRealT Manager - Installer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use" title="How To Use" class="md-nav__link">
+    How To Use
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-a-new-getrealt-site" title="Installing a new GetRealT site" class="md-nav__link">
+    Installing a new GetRealT site
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-an-existing-getrealt-site" title="Updating an existing GetRealT site" class="md-nav__link">
+    Updating an existing GetRealT site
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getting-help" title="Getting Help" class="md-nav__link">
+    Getting Help
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-of-commands" title="List Of Commands" class="md-nav__link">
+    List Of Commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manually-adding-to-an-existing-project" title="Manually adding to an existing project" class="md-nav__link">
+    Manually adding to an existing project
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-information" title="Further Information" class="md-nav__link">
+    Further Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technonology-stack" title="Technonology Stack" class="md-nav__link">
+    Technonology Stack
+  </a>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comments" class="md-nav__link md-nav__link--active">
+            Comments
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../post_installation/" title="Post Installation" class="md-nav__link">
+      Post Installation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../home_page_content/" title="Home Page Content" class="md-nav__link">
+      Home Page Content
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Dashboard
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Dashboard
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Dashboard/blog_editor/" title="Blog Editor" class="md-nav__link">
+      Blog Editor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Dashboard/getrealt_settings/" title="GetRealT Settings" class="md-nav__link">
+      GetRealT Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Dashboard/getrealt_contact_us/" title="GetRealT Contact Us" class="md-nav__link">
+      GetRealT Contact Us
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../license/" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getrealt-manager-installer" title="GetRealT Manager - Installer" class="md-nav__link">
+    GetRealT Manager - Installer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use" title="How To Use" class="md-nav__link">
+    How To Use
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-a-new-getrealt-site" title="Installing a new GetRealT site" class="md-nav__link">
+    Installing a new GetRealT site
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-an-existing-getrealt-site" title="Updating an existing GetRealT site" class="md-nav__link">
+    Updating an existing GetRealT site
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getting-help" title="Getting Help" class="md-nav__link">
+    Getting Help
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-of-commands" title="List Of Commands" class="md-nav__link">
+    List Of Commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manually-adding-to-an-existing-project" title="Manually adding to an existing project" class="md-nav__link">
+    Manually adding to an existing project
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-information" title="Further Information" class="md-nav__link">
+    Further Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technonology-stack" title="Technonology Stack" class="md-nav__link">
+    Technonology Stack
+  </a>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comments" class="md-nav__link md-nav__link--active">
+            Comments
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/timitek/getrealt-quarx/edit/master/docs/installing.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                
+                
+                <p>﻿</p>
+<h1 id="installing">Installing<a class="headerlink" href="#installing" title="Permanent link">#</a></h1>
+<p>There are a couple different methods of installation available to you depending on if you are installing GetRealT as a stand alone product or adding to another Laravel project.</p>
+<h2 id="getrealt-manager-installer">GetRealT Manager - Installer<a class="headerlink" href="#getrealt-manager-installer" title="Permanent link">#</a></h2>
+<p>A command line install tool that will install everything from scratch is available for download at;
+<a href="https://github.com/timitek/getrealt-manager">https://github.com/timitek/getrealt-manager</a></p>
+<p>GetRealT manager utilizes Composer to install it's components.  Make sure you have composer installed before continuing.</p>
+<p>You can install the manager either locally and run it from the cloned repository, or globally in composers CLI tool set to make it available everywhere.</p>
+<p><strong>Installing Globally</strong></p>
+<div class="code"><pre><span></span>composer global require &quot;timitek/getrealt-manager&quot;
+</pre></div>
+
+
+<p>Make sure to place the <code>$HOME/.composer/vendor/bin</code> directory (or the equivalent directory for your OS) in your $PATH so the <code>getrealt</code> executable can be located by your system.</p>
+<p><strong>Installing Locally</strong></p>
+<p>If you would prefer not to install getrealt-manager into your composer's home globally , you may install it locally and execute it from this local directory.</p>
+<p>Choose the directory you would like to install int into and clone the repository;</p>
+<div class="code"><pre><span></span>git clone https://github.com/timitek/getrealt-manager.git
+</pre></div>
+
+
+<p>Make sure to either place this new directory into your $PATH, or create the appropriate alias in your .bashrc so that you can execute it.</p>
+<p>Example..</p>
+<div class="code"><pre><span></span>alias getrealt=&quot;/home/[the path where it was installed]/getrealt-manager/getrealt&quot;
+</pre></div>
+
+
+<hr />
+<h3 id="how-to-use">How To Use<a class="headerlink" href="#how-to-use" title="Permanent link">#</a></h3>
+<p>The GetRealT manager allows you to create a fresh installation of GetRealT or perform maintenance on existing installations.</p>
+<h3 id="installing-a-new-getrealt-site">Installing a new GetRealT site<a class="headerlink" href="#installing-a-new-getrealt-site" title="Permanent link">#</a></h3>
+<p>To create a clean installation of a new GetRealT site or update an existing installation use the <code>getrealt add</code> command.</p>
+<p><strong>Usage</strong>
+getrealt [options] &lt; name &gt;</p>
+<p><em>example</em></p>
+<div class="code"><pre><span></span>getrealt add mysite
+</pre></div>
+
+
+<p>Then follow the prompts.</p>
+<h3 id="updating-an-existing-getrealt-site">Updating an existing GetRealT site<a class="headerlink" href="#updating-an-existing-getrealt-site" title="Permanent link">#</a></h3>
+<p>To update an existing site, use the --update option.</p>
+<div class="code"><pre><span></span>getrealt add mysite --update
+</pre></div>
+
+
+<p>If you don't want to change any of the settings during the update, but are only interested in applying updates, you can supply an answer file (typically this is the existing .env file), in order to suppress being prompted.</p>
+<div class="code"><pre><span></span>getrealt add mysite --update --answerfile=./&lt;mysite&gt;/.env
+</pre></div>
+
+
+<h3 id="getting-help">Getting Help<a class="headerlink" href="#getting-help" title="Permanent link">#</a></h3>
+<p>To display help for getrealt at any time you can type;</p>
+<div class="code"><pre><span></span>getrealt help
+</pre></div>
+
+
+<p>To get help for a specific command;</p>
+<div class="code"><pre><span></span>getrealt help add
+</pre></div>
+
+
+<h3 id="list-of-commands">List Of Commands<a class="headerlink" href="#list-of-commands" title="Permanent link">#</a></h3>
+<p>To display a list of available commands</p>
+<div class="code"><pre><span></span>getrealt help
+</pre></div>
+
+
+<h3 id="manually-adding-to-an-existing-project">Manually adding to an existing project<a class="headerlink" href="#manually-adding-to-an-existing-project" title="Permanent link">#</a></h3>
+<p>Manual installation requires a configured Laravel installation with Quarx and GetRETS.</p>
+<p><strong>Step 1:</strong> Install Laravel (<a href="https://laravel.com/docs/">https://laravel.com/docs/</a>).</p>
+<p><strong>Step 2:</strong> Install Quarx (<a href="https://github.com/YABhq/Quarx#installation">https://github.com/YABhq/Quarx#installation</a>).</p>
+<p><strong>Step 3:</strong> Install GetRealT for Quarx</p>
+<div class="code"><pre><span></span>composer require timitek/getrealt-quarx
+</pre></div>
+
+
+<p><em>alternatively, for the latest bleeding edge development version use</em></p>
+<div class="code"><pre><span></span>composer require timitek/getrealt-quarx:dev-master --dev
+</pre></div>
+
+
+<p><strong>Note</strong>: <em>For Laravel 5.4 and older it is necessary to add the following to the providers section within config/app.php.</em></p>
+<div class="code"><pre><span></span><span class="x">Timitek\GetRETS\Providers\GetRETSServiceProvider::class,</span>
+</pre></div>
+
+
+<p>Make GetRealT the active Quarx theme by modifying the config/quarx.php and changing the value for the frontend-theme.</p>
+<div class="code"><pre><span></span><span class="x">&#39;frontend-theme&#39; =&gt; &#39;../../vendor/timitek/getrealt-quarx/resources/views/theme&#39;</span>
+</pre></div>
+
+
+<p>Publish all of the assets with the following commands.</p>
+<div class="code"><pre><span></span>php artisan vendor:publish --provider=&quot;Timitek\GetRealT\Providers\GetRealTServiceProvider&quot; --tag=config
+</pre></div>
+
+
+<div class="code"><pre><span></span>php artisan vendor:publish --provider=&quot;Timitek\GetRealT\Providers\GetRealTServiceProvider&quot; --tag=public
+</pre></div>
+
+
+<p><strong>Step 5:</strong> Configure your site.</p>
+<p>All of these settings can be configured directly from the quarx admin dashboard once your website is up and running from the GetRealT menu at /quarx/getrealt/settings.  However you may also manually modify the settings within the .env file.</p>
+<p><strong>.env file note</strong>: <em>If you modify the .env file directly, any values within the .env file that have spaces in them must be wrapped in double quotes ""</em></p>
+<p><strong>Map note</strong>: <em>In order to display the maps on the listing details pages, obtain a google maps API key <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">https://developers.google.com/maps/documentation/javascript/get-api-key</a></em></p>
+<p>Add values for the following settings to your .env file.</p>
+<p><strong>GETRETS_CUSTOMER_KEY</strong> = the customer key provided to you by timitek.com</p>
+<p><strong>GETREALT_SITE_NAME</strong> = What is the name you would like to use in the sites banner as the site name?</p>
+<p><strong>GETREALT_THEME</strong> = What is the initial theme you would like to use for the site?</p>
+<p><strong>GETREALT_MAPS_KEY</strong> = What is your google maps api key? <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">https://developers.google.com/maps/documentation/javascript/get-api-key</a></p>
+<p><strong>GETREALT_LEADS_EMAIL</strong> = What e-mail address do you want your leads sent too?</p>
+<div class="code"><pre><span></span>GETRETS_CUSTOMER_KEY=your_customer_key_from_timitek
+GETREALT_SITE_NAME=GetRealT
+GETREALT_THEME=united
+GETREALT_MAPS_KEY=(Your Google maps API Key)
+GETREALT_LEADS_EMAIL=support@timitek.com
+</pre></div>
+
+
+<hr />
+<h2 id="further-information">Further Information<a class="headerlink" href="#further-information" title="Permanent link">#</a></h2>
+<p>For further documentation and information visit <a href="http://www.getrealt.com">http://www.getrealt.com</a> and <a href="http://help.getrealt.com">http://help.getrealt.com</a> or contact timitek at <a href="http://www.timitek.com/getrealt">http://www.timitek.com/getrealt</a>.
+If you are interested in managed hosting / installation, visit <a href="https://www.timitek.net">https://www.timitek.net</a>.</p>
+<hr />
+<h2 id="technonology-stack">Technonology Stack<a class="headerlink" href="#technonology-stack" title="Permanent link">#</a></h2>
+<p><strong>PHP Web Framework</strong>: Laravel (<a href="https://www.laravel.com/">https://www.laravel.com/</a>)</p>
+<p><strong>Content Management Library</strong>: Quarx (<a href="https://quarxcms.com/">https://quarxcms.com/</a>)</p>
+<p><strong>Listing Integration</strong>: The Laravel module is provided by getrets-laravel (<a href="https://github.com/timitek/getrets-laravel">https://github.com/timitek/getrets-laravel</a>)</p>
+<p><strong>Cloud based RETS listing data API</strong>: GetRETS (<a href="http://www.timitek.com/">http://www.timitek.com/</a>) - <em>A customer key is required for listing integration</em></p>
+                
+                  
+                
+              
+              
+                
+                  <h2 id="__comments">Comments</h2>
+                  <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "None";
+    this.page.identifier =
+      "None";
+  };
+  (function() {
+    var d = document, s = d.createElement("script");
+    s.src = "//getrealt.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../post_installation/" title="Post Installation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Post Installation
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright (c) 2017 timitek llc
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/timitek" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/timitek_llc" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-0b7df094bf.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
+      
+        <script src="../js/jquery.js"></script>
+      
+        <script src="../js/ekko-lightbox.js"></script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88740607-4","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>

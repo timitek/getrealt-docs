@@ -98,7 +98,7 @@ To display a list of available commands
 getrealt help
 ```
 
-## Manual Installation / adding to an existing project
+### Manually adding to an existing project
 
 Manual installation requires a configured Laravel installation with Quarx and GetRETS.
 
@@ -106,9 +106,7 @@ Manual installation requires a configured Laravel installation with Quarx and Ge
 
 **Step 2:** Install Quarx (<https://github.com/YABhq/Quarx#installation>).
 
-**Step 3:** Install GetRETS for Laravel (<https://github.com/timitek/getrets-laravel#install>).
-
-**Step 4:** Install GetRealT for Quarx
+**Step 3:** Install GetRealT for Quarx
 
 ```
 composer require timitek/getrealt-quarx
@@ -120,7 +118,7 @@ composer require timitek/getrealt-quarx
 composer require timitek/getrealt-quarx:dev-master --dev
 ```
 
-Add the following to your providers in config/app.php
+**Note**: *For Laravel 5.4 and older it is necessary to add the following to the providers section within config/app.php.*
 
 ```php
 Timitek\GetRETS\Providers\GetRETSServiceProvider::class,
@@ -144,12 +142,15 @@ php artisan vendor:publish --provider="Timitek\GetRealT\Providers\GetRealTServic
 
 **Step 5:** Configure your site.
 
-All of these settings can be configured directly from the quarx admin dashboard once your website is up and running from the GetRealT menu at /quarx/getrealt/settings
+All of these settings can be configured directly from the quarx admin dashboard once your website is up and running from the GetRealT menu at /quarx/getrealt/settings.  However you may also manually modify the settings within the .env file.
 
+**.env file note**: *If you modify the .env file directly, any values within the .env file that have spaces in them must be wrapped in double quotes ""*
 
-In order to display the maps on the listing details pages, obtain a google maps API key <https://developers.google.com/maps/documentation/javascript/get-api-key>
+**Map note**: *In order to display the maps on the listing details pages, obtain a google maps API key <https://developers.google.com/maps/documentation/javascript/get-api-key>*
 
 Add values for the following settings to your .env file.
+
+**GETRETS_CUSTOMER_KEY** = the customer key provided to you by timitek.com
 
 **GETREALT_SITE_NAME** = What is the name you would like to use in the sites banner as the site name?
 
@@ -161,6 +162,7 @@ Add values for the following settings to your .env file.
                     
 
 ```
+GETRETS_CUSTOMER_KEY=your_customer_key_from_timitek
 GETREALT_SITE_NAME=GetRealT
 GETREALT_THEME=united
 GETREALT_MAPS_KEY=(Your Google maps API Key)
@@ -171,7 +173,7 @@ GETREALT_LEADS_EMAIL=support@timitek.com
 
 ## Further Information
 
-For further documentation and information visit <http://www.getrealt.com> or contact timitek at <http://www.timitek.com/getrealt>.
+For further documentation and information visit <http://www.getrealt.com> and <http://help.getrealt.com> or contact timitek at <http://www.timitek.com/getrealt>.
 If you are interested in managed hosting / installation, visit <https://www.timitek.net>.
 
 ***
@@ -186,4 +188,3 @@ If you are interested in managed hosting / installation, visit <https://www.timi
 **Listing Integration**: The Laravel module is provided by getrets-laravel (<https://github.com/timitek/getrets-laravel>)
 
 **Cloud based RETS listing data API**: GetRETS (<http://www.timitek.com/>) - *A customer key is required for listing integration*
-

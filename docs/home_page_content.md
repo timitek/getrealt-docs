@@ -9,13 +9,21 @@ After installing GetRealT your default home page shows example content you are a
 
 If you are logged in as an administrator (from the **login** button at the bottom of the website), each editable section will provide you with a button allowing you to create / edit content, as seen in the examples below.
 
+By default simple editing is enabled which will allow you to edit in place without leaving the home page via a simple modal pop-up dialogue.  If you have advanced editing enabled, you can perform more advanced editing features by being redirected to the back end editors from the quarx admin backend. For more information on this setting see *Advanced Edit* within the [Post Installation](./Dashboard/post_installation) section.
+
 ![welcome_create_now.png](../img/screenshots/welcome_create_now.png "Welcome Create Now")
 
 ![featured_create_now.png](../img/screenshots/featured_create_now.png "Featured Create Now")
 
-## Populating Content with the Blog Editor
+## Populating Content with the Modal Pop-Up Dialogue (Simple Edit Form)
 
-When you click on of the create / edit buttons, you will be taken to the **blog editor**.  Even though you may not be interested in creating a blog, the blog editor is used to create content for these various sections on your website.  The blog editor allows us to associate tags with content you create.  Notice the instructions within each section that is able to be edited. There is mention of tagging a blog post with a specific word in order to have the content show up in this provided section.  This is how you are able create custom content within these sections on your home page.  
+![simple_edit_form.png](../img/screenshots/simple_edit_form.png "Simple Edit Form")
+
+When simple editing is enabled (by default), you will be presented with a modal pop-up dialogue allowing you to edit the content in place.  You can specify a title, an icon to associate with the content, the general body of the content, as well as the ability to create links to the content with various sections on the home page via the *Also Post In* options.
+
+## Populating Content with the Blog Editor (Advanced Edit)
+
+When advanced editing is enabled, you will be directed to the "Blog Editor" within the quarx admin backend when you click on of the create / edit buttons, you will be taken to the **blog editor**.  Even though you may not be interested in creating a blog, the blog editor is used to create content for these various sections on your website.  The blog editor allows us to associate tags with content you create.  Notice the instructions within each section that is able to be edited. There is mention of tagging a blog post with a specific word in order to have the content show up in this provided section.  This is how you are able create custom content within these sections on your home page.  
 
 Content can be created with multiple tags associated with it to allow it to appear in multiple sections within the website.
 
